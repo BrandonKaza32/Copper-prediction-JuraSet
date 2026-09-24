@@ -323,7 +323,7 @@ with tab_map:
         fig.update_traces(marker=dict(symbol="square", size=5))
         if st.checkbox("Show sample locations", value=True):
             fig.add_trace(go.Scatter(x=df["Xloc"], y=df["Yloc"], mode="markers", name="samples",
-                                     marker=dict(color="#1C2426", size=4), hovertemplate="Sample Cu: %{text} mg/kg",
+                                     marker=dict(color="#9B59D0", size=6, line=dict(color="white", width=0.8), hovertemplate="Sample Cu: %{text} mg/kg",
                                      text=df["Cu"]))
         fig.update_yaxes(scaleanchor="x", scaleratio=1)
         fig.update_layout(height=650)
