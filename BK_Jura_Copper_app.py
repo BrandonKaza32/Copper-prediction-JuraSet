@@ -327,7 +327,7 @@ with tab_map:
                                      text=df["Cu"]))
         fig.update_yaxes(scaleanchor="x", scaleratio=1)
         fig.update_xaxes(constrain="domain")
-        fig.update_layout(height=820, legend=dict(
+        fig.update_layout(height=780, legend=dict(
             title=dict(text="Predicted Cu", font=dict(size=18)),
             font=dict(size=16),
             itemsizing="constant",
