@@ -1,6 +1,6 @@
 # 🟠 Predicting Copper Concentration in Jura Soils
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://BK_Jura_Copper_app.streamlit.app)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://copper-prediction-juraset-fg6bit8ysjc849ttvbuaer.streamlit.app/)
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.8-F7931E?logo=scikitlearn&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.64-FF4B4B?logo=streamlit&logoColor=white)
@@ -9,7 +9,7 @@
 
 A machine-learning project that classifies copper (Cu) in Swiss Jura topsoils as **low**, **medium** or **high**, using co-occurring heavy metals, land use, rock type and location. It then maps the predicted copper class across the whole study area.
 
-**🔗 Live app:** https://YOUR-APP-NAME.streamlit.app
+**🔗 Live app:** https://copper-prediction-juraset-fg6bit8ysjc849ttvbuaer.streamlit.app/
 
 ---
 
