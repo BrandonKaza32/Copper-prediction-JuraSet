@@ -327,7 +327,7 @@ with tab_map:
                                      text=df["Cu"]))
         fig.update_yaxes(scaleanchor="x", scaleratio=1)
         fig.update_xaxes(constrain="domain")
-        fig.update_layout(height=900, legend=dict(orientation="h", y=1.03, x=0.5, xanchor="center", title=""))
+        fig.update_layout(height=800, legend=dict(orientation="h", y=1.03, x=0.5, xanchor="center", title=""))
         st.plotly_chart(fig, width="stretch")
 
         shares = g["Cu_pred"].value_counts(normalize=True).reindex(CLASSES)
